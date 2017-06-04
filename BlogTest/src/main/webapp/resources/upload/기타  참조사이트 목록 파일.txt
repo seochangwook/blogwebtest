@@ -1,0 +1,411 @@
+Uri video=Uri.parse("/storage/sdcard0/MyVideo/hunchungwun_video.mp4");
+-->무조건 storage/sdcard0까지 와야지 스마트폰의 기본 폴더정보를 볼 수 있다.
+
+http://jessicarbrown.com/resources/unsignedtojava.html
+-> 자바,C++ 자료형 설명 홈페이지
+
+http://www.gotw.ca/publications/c_family_interview.htm
+->데니스 리치(C), 비야네 스트롭스트룹(C++), 제임스 고슬링(JAVA)의 인터뷰 전문
+
+workstation key
+MZ26V-F1HD5-5Z7U0-RA2NK-1C84Z
+NY2Y5-2F354-DZDG9-AA17K-C2GPX
+MU2KP-2134P-TZYL0-CAAQH-CCN1Z
+4Y4WQ-66H51-7ZTE9-E1872-A3G66
+5A4L7-08200-EZZW0-609QK-A2XMR
+
+- http://studyforus.tistory.com/223 : 리눅스 루트비밀번호 설정
+
+http://www.sanbarrow.com/vmdk-handbook.html -> 가상디스크 이미지 관련 정보
+//스냅샷 관련 정보
+https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.vm_admin.doc%2FGUID-38F4D574-ADE7-4B80-AEAB-7EC502A379F4.html
+
+
+2KJ6K-BPRYY-6DQYR-C6HB6-FWD26 - 윈도우XP 정품 키
+
+http://theeye.pe.kr/archives/1242 : 안드로이드 인텐트 정보
+http://stackoverflow.com/questions/11069725/pause-in-tts-android - TTS 일시정지 ( stackoverflow )
+http://stackoverflow.com/questions/28670741/how-to-make-a-pause-button-for-android-text-to-speech
+http://biig.tistory.com/49 -> 안드로이드 오픈소스 사이트
+
+http://sonej.tistory.com/3 -> 데이터베이스 193페이지 연습문제 답
+
+- http://bj1389.blog.me/220003643058
+- http://najuung.tistory.com/55, http://noritersand.tistory.com/5 - 오라클 내장함수 설명
+
+ERWin 만기일 - March 31, 2016
+
+http://mwultong.blogspot.com/2006/05/gm-general-midi-128.html - > 악기목록(midi)
+
+- /prefix변환기 : http://hydra.geht.net/tools/ip.php?ip=0.0.0.0
+
+- http://wiki.rasplay.org/doku.php : 라즈베리파이 참조 사이트(설정부분)
+
+- http://withcoding.com/44 : 라즈베리파이 OS포팅 설정 부분.
+
+- http://www.icbanq.com/pbloger/board_View.aspx?number=521 : 라즈베리파이와 안드로이드간의 네트워크 부분
+
+ - http://www.icbanq.com/pbloger/board_View.aspx?number=205&boardNum= : 라즈베리파이 무선랜 설정
+
+- http://www.rasplay.org/?p=8285 : 무선랜 자동설정 및 이더넷 추가
+
+- http://wiki.gurubee.net/pages/viewpage.action?pageId=27426968&#SQLP%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C_1-I.SQLP%ED%80%B4%EC%A6%88 : SQLP 기출문제
+
+- http://www.comcbt.com/xe/r1/2145009 : 리눅스 마스터 1급 기출문제 모음 사이트
+
+- https://www.raspberrypi.org/downloads/raspbian/ : 라즈베리 다운로드 사이트
+
+- http://echo.tistory.com/34 : 라즈베리파이 os포팅방법
+
+2dd9603c0771aac713544a7d2f640601 - Weather API Key
+http://api.openweathermap.org/data/2.5/weather?q=korea&mode=xml&APPID=2dd9603c0771aac713544a7d2f640601 - 방법
+
+- http://www.theasciicode.com.ar/extended-ascii-code/graphic-character-low-density-dotted-ascii-code-176.html : C언어 특수기호 표시
+
+- http://blog.daum.net/_blog/BlogTypeView.do?blogid=0qWfU&articleno=94&categoryId=0&regdt=20140928022048 : 라즈베리파이와 아두이노간의 UART통신
+
+- http://pi4j.com/ : 자바 아두이노간의 라이브러리 오픈소스 홈페이지
+
+- http://smilecap.tistory.com/1137 : 노트북을 무선 공유기화 시키기
+  -> 현재 AP Key : tjckd246
+
+- 맥북을 무선 공유기화 시키기 : http://macnews.tistory.com/714
+
+- http://kjcc2.tistory.com/2159 : 가상머신에 Mac설치
+
+- http://blog.naver.com/yuyyulee/220301424499 : 아두이노 유용한 정보 (몽구스 블로그)
+
+- http://bbangpan.tistory.com/51 : 아두이노 먼지센서 설명
+
+- http://www.kocoafab.cc/tutorial/view/526 : 풀업, 풀 다운 저항
+
+- http://theeye.pe.kr/archives/1501 - 자바로 무선ip주소 불러오기
+
+- http://blog.daum.net/gunsu0j/248 : 안드로이드 서비스로부터 값 얻어오기
+
+- https://github.com/ylyc/circular_progress_bar/blob/master/README.md : 안드로이드 프로그레스 바 스타일 -1
+
+- http://jamesjeong.tistory.com/26 : 액티비티를 다이얼로그
+
+- http://www.ktword.co.kr/abbr_view.php?nav=2&id=515&m_temp1=493 : 정보통신용어 정리사이트
+
+- http://docko.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-ActionBar-%EB%A7%8C%EB%93%A4%EA%B8%B0 : 안드로이드 스튜디오 액션바 설정
+
+- http://bcho.tistory.com/885 : node.js 이벤트 처리 매커니즘
+
+- http://codeup.kr/JudgeOnline/problemset.php : 프로그래밍 문제 (코드업)
+
+- 데이터베이스 실행 문 : 
+$ cd /usr/local/mysql/bin/
+$ sudo ./mysql -u root -p
+
+- 암호변경 문 :
+mysql> use mysql;
+mysql> update user set password=password(“pass”) where user=“root”;
+mysql> flush privileges;
+
+―> $ sudo 
+
+- 실행 및 중지 :
+
+$ sudo /usr/local/mysql/support-files/mysql.server start
+$ sudo /usr/local/mysql/support-files/mysql.server stop
+
+- http://www.songtory.com/post/001004/1/244 : 디비 비밀번호 분실 대처
+
+- http://oddly.tistory.com/60 : 맥에서 my.cnf파일 대처
+
+- http://mirwebma.tistory.com/5 : 디비 한글설정 (utf8)
+
+- http://hulbo.tistory.com/4 : javascript getParameter(), getAttribute()차이
+
+- http://www.culture.go.kr/data/main/main.do : 문화데이터 api 제공 사이트
+
+- http://appxp.tistory.com/8 : cocos2d다운로드 방법
+
+- 관리자 권한(Mac) : sudo -s -> 3315
+
+- https://www.acmicpc.net/problemset/1 : ACM문제
+
+- https://codility.com/programmers/task/frog_jmp/ : 코딩테스트 문제
+
+- http://genesis8.tistory.com/214 : DTO, DAO에 관한 설명
+
+- http://school.skdidimdol.com/TimeTable/TimeTable_L.asp : sk고용디딤돌 교육홈페이지
+
+- https://seed.kisa.or.kr/iwt/ko/intro/EgovPublicKey.do : KISA 암호 알고리즘 설명
+
+- /Users/apple/Library/Android/sdk : 안드로이드 SDK위치
+
+- https://ovenapp.io/ : 앱 프로토타이핑 도구
+
+- https://developers.facebook.com/quickstarts/ : 페이스북 개발자 사이트
+(https://developers.facebook.com/tools/explorer/145634995501895/?method=GET&path=me%3Ffields%3Did%2Cname&version=v2.7) : 페이스북 json데이터 얻기
+
+- http://www.androidhive.info/2012/01/android-json-parsing-tutorial/ : json파싱 테스트
+
+- http://www.androidhive.info/2014/09/android-json-parsing-using-volley/ : Volley 방식의 향상된 JSON파싱//
+
+- http://jizard.tistory.com/25 : 카드뷰, 리사이클뷰 사용
+
+- http://jwgye.tistory.com/38 : 이클립스 깃허브 연동
+
+- git ls-files --others -i --exclude-standard : .git파일 다 지우기 명령어
+
+- git push origin master : master에 푸시 (해당 디렉터리로 이동 후, 원격주소지 저장 후 적용)
+
+- git remote add origin https://github.com/seochangwook/Android-Source-Code.git
+
+- https://rogerdudler.github.io/git-guide/index.ko.html : 깃 설명
+
+********< 깃 사용 순서 >***********
+1. 깃에 로드할 디렉터리로 이동 (cd사용)
+2. git init로 초기 저장소 구성
+3. git remote add origin <원격저장소 주소> 로 원격저장소 등록(깃에 미리 새로운 repo추가)
+――――
+4. git add *(모든파일)로 현재 인덱스 저장소에 들어갈 파일들 저장 (준비영역, staging area)
+5. git commit -m “<commit comment>” 로 커밋
+6. git push origin master로 원격 저장소로 파일들 저장 (인증 필요)
+********************************
+
+- http://kkangeva.tistory.com/37 : 안드로이드 스튜디오 깃허브 연동법
+
+- https://github.com/stylehatch/photoset-grid/blob/master/README.markdown : Github이미지 html태그 설명
+
+- http://www.jejusarang.com/?1300947278 : 안드로이드 기본 아이콘
+
+- http://preloaders.net/en/free : gif 이미지 생성 사이트
+
+- http://biig.tistory.com/52 : JSON 파싱법
+
+- http://stackoverflow.com/questions/27609442/how-to-get-the-sha1-fingerprint-certificate-in-android-studio-for-debug-mode : 안드로이드 스튜디오에서 sha-1값 추출방법
+
+- https://developers.google.com/identity/sign-in/android/start-integrating : 구글 인증모드 사이트
+
+- http://m.blog.naver.com/tkddlf4209/220723534886 : 구글 로그인 연동방법
+
+- https://apps.twitter.com/ : 트위터 앱 등록 사이트
+
+- https://www.fabric.io/onboard : Fabric 플러그인
+
+- https://docs.fabric.io/android/twitter/compose-tweets.html : Fabric 개발자 사이트
+
+- https://www.simplifiedcoding.net/twitter-login-android-tutorial-integrating-twitter-login/ : 트위터 로그인 연동 코드
+
+- https://developers.skplanetx.com/develop/self-console/ : sk 플래닛 개발자 홈페이지
+
+- https://github.com/wasabeef/picasso-transformations/blob/master/example/src/main/java/jp/wasabeef/example/picasso/MainAdapter.java : 피카소 라이브러리의 여러가지 transformations
+
+- http://treejsh.tistory.com/entry/OkHttp-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95 : 안드로이드 okhttp사용법(GET/POST)
+
+- postmen : 서버, API 테스트 사이트
+
+- https://console.cloud.google.com/appengine?project=my-project-1-1470720309181&duration=PT1H : 구글 개발자 클라우드 사이트
+
+- http://hackersome.com/p/minsoopark/android-best-practices-kor : 안드로이드 개발 모범사례
+
+- https://github.com/oliguo/android-PopupWindow/blob/master/Popupwindow/app/src/main/java/oliguo/example/popupwindow/PopupWindow1/PopupWindow1.java : 안드로이드 팝업관련 오픈소스
+
+- https://developers.google.com/cloud-messaging/android/client : 구글 gcm
+
+- https://developers.google.com/cloud-messaging/ : 구글 FCM등록 사이트
+
+- http://blog.saltfactory.net/android/implement-push-service-via-gcm.html : 안드로이드 gcm예제
+
+- http://stackoverflow.com/questions/34826520/how-to-send-post-parameters-dynamically-or-in-loop-in-okhttp-3-x-in-android : okhttp3 다중 바디 작성
+
+- http://gun0912.tistory.com/19 : Picasso와 Glide와의 비교
+
+- http://www.silverwolf.co.kr/tomcat/8637 : Mac에서 톰캣설치
+(명령어 : 서버 on : /usr/local/apache-tomcat-8.0.37/bin/startup.sh
+서버 off : /usr/local/apache-tomcat-8.0.37/bin/shutdown.sh)
+
+- http://tomcat.apache.org/download-80.cgi : 톰캣 다운로드 홈페이지
+
+- http://hyeonstorage.tistory.com/97 : HTTP에러코드 정리
+
+- http://m.blog.daum.net/rhaoslikesan/169 : jsp에서 자바코드 호출방법
+
+- https://github.com/Microsoft/Cognitive-emotion-android : 안드로이드 얼굴인식 API
+
+- https://blog.outsider.ne.kr/481 : nodejs 샘플코드
+
+- http://lazydev.tistory.com/entry/Nodejs3-Node-Express : node express설치
+
+- http://www.clearboth.org/19-html-tables : html 테이블 관련 소스
+
+- http://helols.tistory.com/15 : HttpServletRequest 정리
+
+- https://makeapppie.com/2014/09/15/swift-swift-programmatic-navigation-view-controllers-in-swift/ : Swift viewcontroller관련 navigation
+
+- http://unikys.tistory.com/318 : 안드로이드 프래그먼트 설명참조
+
+- http://nicsy.tistory.com/entry/Android-KeyListener-%EB%91%90-%EB%B2%88-%ED%98%B8%EC%B6%9C-%EB%90%98%EB%8A%94-%EA%B2%BD%EC%9A%B0 : KeyListener중복처리
+
+- https://material.google.com/style/color.html#color-color-palette : 안드로이드 파레트(색상)
+
+- http://useyourloaf.com/blog/privacy-settings-in-ios-10/ : ios10보안관련 info.plist설정 (동적 퍼미션)
+
+- https://blog.lael.be/post/858 : 리눅스 톰캣 설치방법
+
+- http://blog.naver.com/PostView.nhn?blogId=nasu0210&logNo=220255965966&parentCategoryNo=&categoryNo=51&viewDate=&isShowPopularPosts=false&from=section : jsp에서 json생성
+
+- http://blog.bykenny.com/entry/JSON-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0 : jsp에서 json생성
+
+- https://ko.wikipedia.org/wiki/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C : HTTP코드
+
+- http://seorenn.blogspot.kr/2015/03/ios-xib-uiview.html : XIB추가방법
+
+- http://88oy.tistory.com/221 - jsp파일 업로드(MultipartRequest)
+
+- http://whdvy777.tistory.com/entry/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%ED%86%B0%EC%BA%A3-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0 : 톰겟 변경된 사항 바로 적용방법
+
+- http://www.ioscreator.com/tutorials/customizing-header-footer-table-view-ios8-swift - swift custom header/footer
+
+- http://hyeonstorage.tistory.com/210 : jsp 다중 파일전송
+
+- http://sjava.net/2014/10/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90%EC%84%9C-%EC%83%89%EC%97%90%EC%84%9C-%EC%95%8C%ED%8C%8Calpha%EA%B0%92-%EC%82%AC%EC%9A%A9/ - 안드로이드 alpha값 수치
+
+- http://sourcefreeze.com/uiwebview-example-using-swift-in-ios/ : UIWebView 관련
+
+- http://rhammer.tistory.com/67 : ios App Transport Security 문제 해결
+
+- https://www.youtube.com/watch?v=VhXhqX3NeIY : UINavigation 구현
+
+- http://stackoverflow.com/questions/28573635/destinationviewcontroller-segue-and-uinavigationcontroller-swift : uinavigation segue 이슈 해결
+
+- http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm : java에서 json파싱 jar파일
+
+- http://javapapers.com/java/java-facebook-login-with-oauth-authentication/ : jsp facebook연동
+
+- http://stackoverflow.com/questions/18293726/android-onbackpressed-not-being-called-when-navigation-drawer-open : drawable back key제어
+
+- http://www.incree.com/tc/incree/entry/SNS-%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81-%EC%95%84%EC%9D%B4%EB%94%94%EB%A1%9C-%ED%94%84%EB%A1%9C%ED%95%84-%EC%82%AC%EC%A7%84-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0graph-api : 페이스북 프로필 이미지 주소
+
+- https://github.com/wasabeef/glide-transformations : glide transform
+
+- https://github.com/wasabeef : Metrial Design open source
+
+- http://www.nextree.co.kr/p8428/ : 여러 html form태그들
+
+- http://tom7930.tistory.com/10 : ios 메일전송
+
+- http://carosy.tistory.com/226 : NSString / NSMutableString 관련 특징 및 초기화
+
+- https://www.fluidui.com/ : 목업도구
+
+- https://www.youtube.com/watch?v=aSzPnPu5Yik : UITabbar 만드는 방법
+
+- http://stackoverflow.com/questions/29271796/how-to-send-data-from-uiviewcontroller-to-uitabbarcontrollers-first-tab-in-swift : viewcontroller에서 uitabbarcontroller로 값 전달
+
+- https://makeapppie.com/2016/07/06/tab-bar-controllers-in-xcode-8-storyboards/ : UITabbarItem custom 설정
+
+- http://stackoverflow.com/questions/33583693/how-to-change-tint-color-of-tab-bar-in-swift : tabor tint custom
+
+- http://iw90.tistory.com/267 : ios pageviewcontroller관련 자료 - 1
+
+- http://shrikar.com/ios-swift-tutorial-uipageviewcontroller-as-user-onboarding-tool/ : ios pageviewcontroller관련 자료 - 2
+
+- https://www.geotrust.com/ssl/free-ssl-certificate/ : 무로 SSL인증서 등록 사이트
+
+- http://visu4l.tistory.com/419 : 인증서 생성 참조 사이트
+
+- http://exoluse.egloos.com/v/4572381 : HTTP Request구조
+
+- https://www.youtube.com/watch?v=j3lwTzPBoLw : UICollectionView 설정관련 동영상
+
+- http://www.techotopia.com/index.php/A_Swift_iOS_8_Storyboard-based_Collection_View_Tutorial : UICollectionView 설정2
+
+- https://developers.google.com/speed/libraries/#jquery : jquery 정보(구글)
+
+- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> : jquery사용 시 반드시 선언
+
+- http://www.jejusarang.com/?1300947278 : 안드로이드 기본 아이콘
+
+- http://forum.arduino.cc/index.php?topic=170460.0 : 아두이노 NO Socket availabe 문제해결방법
+
+- http://mechasolutionwiki.com/index.php?title=SSH%EB%A5%BC_%ED%86%B5%ED%95%9C_%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4_%EC%9B%90%EA%B2%A9%EC%A0%9C%EC%96%B4 : 라즈베리파이 SSH접속방법 (비번 : tjckd246)
+
+- http://dev.youngkyu.kr/22 : 몽고DB설명
+
+- http://brew.sh/index_ko.html : homebrew관련 홈페이지
+
+- http://uiandwe.tistory.com/969 : 몽고디비 쿼리문
+
+- https://docs.mongodb.com/getting-started/node/query/ : 몽고디비 공식 레퍼런스 사이트
+
+- http://stackoverflow.com/questions/11661545/how-to-get-a-callback-on-mongodb-collection-find : find() loop해결법
+
+- https://www.mongodb.com/download-center?jmp=hero#compass : MongoDB Compass(UI tool) 다운로드 사이트
+
+- http://www.programering.com/a/MjN5MDNwATM.html : 안드로이드 nodes aes연동
+
+- http://lollyrock.com/articles/nodejs-sha512/ :  nodejs sha 알고리즘 구현  
+
+- https://github.com/roughike/BottomBar : Android 하단바
+
+- http://www.convertstring.com/ko/Hash/SHA512 : SHA변환기
+
+- http://loveiskey.tistory.com/141 : 몽고디비 연산자
+
+- http://blog.kjirou.net/p/3933 : 몽고디비 Type "it" for more 문제 해결
+
+- http://kimyhcj.tistory.com/17 : 몽고디비 완벽분석 책 설명
+
+- http://kuimoani.tistory.com/entry/%EC%9B%B9%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84%EC%8B%9C-Long-Polling-%EB%B0%A9%EC%8B%9D%EA%B3%BC-Polling%EB%B0%A9%EC%8B%9D-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0 : 웹 채팅 시 Long-Polling, Polling방식 설명
+
+- http://kunny.github.io/lecture/kotlin/2016/03/08/android_with_kotlin_part_1/ : 코틀린 설정 관련 사이트
+
+- https://kotlinlang.org/docs/reference/control-flow.html : 코틀린 공식 레퍼런스 사이트
+
+- http://www.slideshare.net/parkjoongsoo1/ss-58654366 : 코틀린 관련 피피티
+
+- http://thdev.tech/kotlin/2016/08/02/Basic-Kotlin-01.html : 코틀린 기본 문법 관련 사이트
+
+- https://console.cloud.google.com/iam-admin/projects : 구글 클라우드 콘솔 사이트
+
+- https://velopert.com/457 : MongoDB 명령어 참조 사이트
+
+- http://www.flaticon.com/ : 아이콘 사이트
+
+- http://mhw8904.tistory.com/59 : Spring 설정사이트
+
+- http://stackoverflow.com/questions/32090921/maven-invalid-loc-header-bad-signature : Spring header 에러해결법
+
+- https://rkjun.wordpress.com/2013/07/14/os-x-missing-package-manager-home-brew/ : brew 사용법 및 명령어 정리
+
+- http://cofived.tistory.com/21 : Spring JDBC연동
+
+- http://aboooks.tistory.com/295 : HTML input 타입
+
+- http://aboooks.tistory.com/74 : <div>관련 정보
+
+- http://stackoverflow.com/questions/34424486/show-jdbc-resultset-in-html-table-in-jsp-page-using-mvc-pattern-nullpointere : <table>에 기본적인 JDBC연동
+
+- https://www.w3schools.com/bootstrap/bootstrap_forms_inputs2.asp : spring bootstrap 자료
+
+- http://hellogk.tistory.com/88 : <input type text> 설명
+
+- http://www.webmadang.net/community/community.do?action=read&boardid=5001&page=1&seq=3 : MIME TYPE 정보
+
+- https://okky.kr/article/261726 : javascript 암호화 (AES-256)
+
+- http://andang72.blogspot.kr/2016/12/blog-post.html : javascript 암호화 설정
+
+- https://dimitrisli.wordpress.com/2012/08/08/how-to-install-oracle-database-on-mac-os-any-version/ : Mac 오라클 설치
+
+- http://dba.stackexchange.com/questions/143047/what-is-the-default-username-and-password-to-the-oracle-pre-built-virtual-machin/143081 : oracle12c 기본 암호
+
+- http://www.ajaxload.info/ : progressbar모양 만들기
+
+- https://developers.google.com/maps/documentation/javascript/events : Spring 구글맵 연동
+
+- http://goldenraccoon.tistory.com/entry/SPRING-SECURITY-DB-LOGIN : Spring Security DB 로그인
+
+- http://dev-yt.tistory.com/25 : 몽고디비 다운로드 사이트
+
+- http://stackoverflow.com/questions/25234964/why-does-spring-data-mongodb-1-5-2-fail-a-with-nosuchmethoderror : 몽고디비 버전 문제 maven해결
+
+- http://souning.tistory.com/68 : Spring 몽고디비 CRUD
+
+- http://stackoverflow.com/questions/11698689/spring-mongo-criteria-querying-twice-the-same-field : spring 몽고디비 Multiple Criteria

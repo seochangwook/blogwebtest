@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.1.xsd
+		http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.8.xsd ">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+	
+	<!-- Spring Security -->
+	<security:global-method-security secured-annotations="enabled"/>
+
+	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<resources mapping="/resources/**" location="/resources/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	
+	<context:component-scan base-package="com.blogtest.controller" />
+	
+	<!-- DataSource -->
+	<beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"> 
+	 	<beans:property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+	 	<beans:property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl12c" /> 
+	 	<beans:property name="username" value="system" /> 
+	 	<beans:property name="password" value="oracle"/> 
+	</beans:bean>
+	 
+	<!-- SQL Session -->
+	<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> 
+	 	<!-- 쿼리 정보 파일 경로 -->
+	 	<beans:property name="mapperLocations" value="classpath*:mapper/**/*.xml"/>
+	 	<beans:property name="dataSource" ref="dataSource" /> 
+	</beans:bean> 
+	 
+	<beans:bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate"> 
+	 	<beans:constructor-arg index="0" ref="sqlSessionFactory" /> 
+	</beans:bean>
+	
+	<!-- MongoDB -->
+    <mongo:db-factory 
+    	id="mongoDbFactory" 
+    	host="localhost"
+    	port="27017"
+    	dbname="test"/> 
+    
+    <beans:bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+    	<beans:constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>   
+    </beans:bean>
+    
+    <!-- MultipartFile -->
+	<beans:bean class="org.springframework.web.multipart.commons.CommonsMultipartResolver" id="multipartResolver">
+		<beans:property name="defaultEncoding" value="UTF-8" /> <!-- 인코딩-->
+	</beans:bean>
+	
+	<!-- Java Mail -->
+	<beans:bean id="mailSender" class ="org.springframework.mail.javamail.JavaMailSenderImpl" > 
+	 	<beans:property name="host" value="smtp.naver.com" /> 
+	 	<beans:property name="port" value="587" />
+	 	<beans:property name="username" value="scw0531@naver.com" /> 
+	 	<beans:property name="password" value="tjckd246!dnr" /> 
+	 	<beans:property name="javaMailProperties"> 
+	 	<beans:props> 
+	 		<beans:prop key="mail.smtp.auth">true</beans:prop>
+            <beans:prop key="mail.smtp.starttls.enable">true</beans:prop>
+	 	</beans:props> 
+	 	</beans:property> 
+	</beans:bean>
+	
+	<!-- Service 등록-->
+	<beans:bean id="userListService" class="com.blogtest.service.UserListServiceImpl"/>
+	<beans:bean id="userModifyService" class="com.blogtest.service.UserModifyServiceImpl"/>
+	
+	<!-- DTO Class Enroll -->
+	<beans:bean id="emailDTO" class="com.blogtest.dto.EmailDTO"/>
+	
+	<!-- DAO 등록 -->
+	<beans:bean id="userListDAO" class="com.blogtest.dao.UserListDAOImpl"/>
+	<beans:bean id="userModifyDAO" class="com.blogtest.dao.UserModifyDAOImpl"/>
+	
+	<!-- Util 등 -->
+	<beans:bean id="mapUtil" class="com.blogtest.util.MapUtil"/>
+	<beans:bean id="emailUtil" class="com.blogtest.util.MailUtil"/>
+		
+</beans:beans>
