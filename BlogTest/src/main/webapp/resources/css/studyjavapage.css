@@ -1,0 +1,43 @@
+@charset "UTF-8";
+#study1 {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-style: outset;
+}
+#study2 {
+    width: 500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-style: outset;
+}
+#study3 {
+    width: 300px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-style: outset;
+}
+#study4 {
+    width: 350px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-style: outset;
+}
+#study5 {
+    width: 1500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-style: outset;
+}
+#study6 {
+    width: 1500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    border-style: outset;
+}

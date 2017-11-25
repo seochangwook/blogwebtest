@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.blogtest.dto.UserListResponseDTO;
+import com.blogtest.service.JavaStudyService;
 import com.blogtest.service.UserListServiceImpl;
 
 /**
@@ -32,18 +33,20 @@ import com.blogtest.service.UserListServiceImpl;
 public class MainController {
 	@Autowired
 	UserListServiceImpl userListService;
+	@Autowired
+	JavaStudyService javaStudyservice;
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home(ModelAndView mv) {	
 		//Service call//
 		
-		List<UserListResponseDTO> userlist = userListService.getUserListService();
+		/*List<UserListResponseDTO> userlist = userListService.getUserListService();
 		
 		for(int i=0; i<userlist.size(); i++){
 			System.out.println("name: " + userlist.get(i).getUserName());
 		}
 		
-		mv.addObject("listuser", userlist);
+		mv.addObject("listuser", userlist);*/
 		mv.setViewName("main/mainview");
 		
 		return mv;
@@ -67,6 +70,20 @@ public class MainController {
 		mv.addObject("name", request.getParameter("input_name"));
 		
 		System.out.println("input name: " + request.getParameter("input_name"));
+		
+		return mv;
+	}
+	
+	@RequestMapping(value = "/javatest", method = RequestMethod.POST)
+	public ModelAndView javatest(ModelAndView mv, HttpServletRequest request){
+		mv.setViewName("javatest/studyjava");
+		
+		//1. 객체(Object) //
+		javaStudyservice.study_1();
+		javaStudyservice.study_2();
+		javaStudyservice.study_3();
+		javaStudyservice.study_4();
+		javaStudyservice.study_5();
 		
 		return mv;
 	}

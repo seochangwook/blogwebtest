@@ -69,7 +69,7 @@
 	</beans:bean>
 	
 	<!-- MongoDB -->
-    <mongo:db-factory 
+    <mongo:db-factory
     	id="mongoDbFactory" 
     	host="localhost"
     	port="27017"
@@ -101,6 +101,7 @@
 	<!-- Service 등록-->
 	<beans:bean id="userListService" class="com.blogtest.service.UserListServiceImpl"/>
 	<beans:bean id="userModifyService" class="com.blogtest.service.UserModifyServiceImpl"/>
+	<beans:bean id="javaStudyServiceImpl" class="com.blogtest.service.JavaStudyServiceImpl"/>
 	
 	<!-- DTO Class Enroll -->
 	<beans:bean id="emailDTO" class="com.blogtest.dto.EmailDTO"/>

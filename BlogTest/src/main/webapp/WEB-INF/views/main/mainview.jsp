@@ -20,6 +20,12 @@
 	<title>Home</title>
 </head>
 <body>
+	<div>
+		<p>Java Study</p>
+		<form name='study id='tForm' method='post' action='http://localhost:8080/controller/javatest'>
+			<p><button name='subject' type='submit'>스터디 페이지 이동</button></p>
+		</form>
+	</div>
 <form name='TransTest' id='tForm' method='post' action='http://localhost:8080/controller/nextpage1'>
 <p> 이름입력: <input ="text" name="input_name"></p>
 <p><button name='subject' type='submit'>페이지 이동</button></p>
